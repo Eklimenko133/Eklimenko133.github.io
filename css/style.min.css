@@ -983,6 +983,9 @@
   .promo_btns {
     margin-top: 30px;
   }
+  .promo_link-about {
+    display: none;
+  }
   .about_wrapper {
     grid-template: 340px auto auto/1fr;
   }
