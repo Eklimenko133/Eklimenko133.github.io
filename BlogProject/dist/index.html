@@ -9,9 +9,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-	<!-- <link rel="stylesheet" href="/css/reset.css"> -->
-	<link rel="stylesheet" href="css/style.min.css">
-
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/dist/css/style.min.css">
 </head>
 
 <body>
@@ -50,7 +49,7 @@
 							<a href="#">Contact</a>
 						</li>
 					</ul>
-					<button class="header__btn">Buy Template</button>
+					<button class="header__btn"><a href="#">Buy Template</a></button>
 					<div class="header__korb">
 						<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path
@@ -64,6 +63,7 @@
 			</div>
 		</div>
 	</header>
+
 	<section class="promo">
 		<div class="container">
 			<div class="promo__wrapper">
@@ -71,7 +71,7 @@
 					<h2 class="promo__title">Shop hundreds of enamel pins from artists.</h2>
 					<div class="promo__text">
 						<button class="promo__btn">Shop Everything</button>
-						<div class="promo__subtitle"><a href="#">Browse collections</a></div>
+						<button class="promo__subtitle"><a href="#">Browse collections</a></button>
 					</div>
 				</div>
 				<div class="promo__item">
@@ -160,22 +160,41 @@
 	</section>
 	<section class="blog">
 		<div class="container">
-			<div class="blog__container">
-				<div class="blog__title">
-					Get the rest of the story
-				</div>
-				<div class="blog__wrapper">
-					<div class="blog__item">
-						<img src="img/blog.png" alt="foto">
-					</div>
-					<div class="blog__item blog__item-text">
-						<div class="blog__descr">
-							“Best templates and support out<br> there! They are always happy to help<br> with any issues you
-							may be having or<br> even just showing how to edit things.”
+			<div class="blog__title">
+				Get the rest of the story
+			</div>
+			<div class="blog__wrapper">
+				<div class="blog__slider">
+					<div class="blog__inner">
+						<div class="blog__item">
+							<img src="img/blog.png" alt="foto">
 						</div>
-						<div class="blog__subtitle">Sam (Trustpilot)</div>
+						<div class="blog__item blog__item-text">
+							<div class="blog__descr">
+								“Best templates and support out<br> there! They are always happy to help<br> with any issues you
+								may be having or<br> even just showing how to edit things.”
+							</div>
+							<div class="blog__subtitle">Sam (Trustpilot)</div>
+						</div>
+					</div>
+
+					<div class="blog__inner">
+						<div class="blog__item">
+							<img src="img/blog.png" alt="foto">
+						</div>
+						<div class="blog__item blog__item-text">
+							<div class="blog__descr">
+								“Best templates and support out<br> there! They are always happy to help<br> with any issues you
+								may be having or<br> even just showing how to edit things.”
+							</div>
+							<div class="blog__subtitle">Sam (Trustpilot)</div>
+						</div>
 					</div>
 				</div>
+
+
+
+
 			</div>
 
 			<div class="blog__items">
@@ -216,7 +235,6 @@
 				</div>
 
 			</div>
-		</div>
 	</section>
 	<section class="journal">
 		<div class="container">
@@ -278,114 +296,122 @@
 				</div>
 	</section>
 	<footer class="footer">
-		<div class="footer__title">Celebrating the perfectly imperfect</div>
-		<div class="footer__item">
-			<div class="footer__img">
-				<img src="img/footer1.png" alt="foto">
+		<div class="container">
+			<div class="footer__title">Celebrating the perfectly imperfect</div>
+			<div class="footer__item">
+				<div class="footer__item-slider">
+					<div class="footer__img">
+						<img src="img/footer1.png" alt="foto">
+					</div>
+					<div class="footer__img">
+						<img src="img/footer2.png" alt="">
+					</div>
+					<div class="footer__img">
+						<img src="img/footer3.png" alt="">
+					</div>
+					<div class="footer__img">
+						<img src="img/footer4.png" alt="">
+					</div>
+				</div>
 			</div>
-			<div class="footer__img">
-				<img src="img/footer2.png" alt="">
+
+			<div class="footer__item-blog">
+				<div class="footer__item-title">
+					<div class="footer__item-text">Subscribe for stories and new product<br> announcements.</div>
+					<hr>
+				</div>
+				<div class="footer__item-menu">
+					<div class="footer__item-column1">
+						<div class="footer__item-subtitle">Shop</div>
+						<div class="footer__item-descr">
+							<ul class="footer__list">
+								<li class="footer__link">
+									<a href="#">All products</a>
+								</li>
+								<li class="footer__link">
+									<a href="#">Fruit</a>
+								</li>
+								<li class="footer__link">
+									<a href="#">Custom</a>
+								</li>
+								<li class="footer__link">
+									<a href="#">Cute</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer__item-column2">
+						<div class="footer__item-subtitle">Learn</div>
+						<div class="footer__item-descr">
+							<ul class="footer__list">
+								<li class="footer__link">
+									<a href="#">Home</a>
+								</li>
+								<li class="footer__link">
+									<a href="#">Shop</a>
+								</li>
+								<li class="footer__link">
+									<a href="#">About as</a>
+								</li>
+								<li class="footer__link">
+									<a href="#">Journal</a>
+								</li>
+								<li class="footer__link">
+									<a href="#">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer__item-column3">
+						<div class="footer__item-subtitle">Template</div>
+						<div class="footer__item-descr">
+							<ul class="footer__list">
+								<li class="footer__link">
+									<a href="#">Style Guide</a>
+								</li>
+								<li class="footer__link">
+									<a href="#">Instructions</a>
+								</li>
+								<li class="footer__link">
+									<a href="#">Licensing</a>
+								</li>
+								<li class="footer__link">
+									<a href="#">Changelog</a>
+								</li>
+								<li class="footer__link">
+									<a href="#">More Templates</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="footer__img">
-				<img src="img/footer3.png" alt="">
-			</div>
-			<div class="footer__img">
-				<img src="img/footer4.png" alt="">
-			</div>
-		</div>
-		<div class="footer__item-blog">
-			<div class="footer__item-title">
-				<div class="footer__item-text">Subscribe for stories and new product<br> announcements.</div>
+
+			<div class="brown">
 				<hr>
 			</div>
-			<div class="footer__item-menu">
-				<div class="footer__item-column1">
-					<div class="footer__item-subtitle">Shop</div>
-					<div class="footer__item-descr">
-						<ul class="footer__list">
-							<li class="footer__link">
-								<a href="#">All products</a>
-							</li>
-							<li class="footer__link">
-								<a href="#">Fruit</a>
-							</li>
-							<li class="footer__link">
-								<a href="#">Custom</a>
-							</li>
-							<li class="footer__link">
-								<a href="#">Cute</a>
-							</li>
-						</ul>
-					</div>
-				</div>
 
-				<div class="footer__item-column2">
-					<div class="footer__item-subtitle">Learn</div>
-					<div class="footer__item-descr">
-						<ul class="footer__list">
-							<li class="footer__link">
-								<a href="#">Home</a>
-							</li>
-							<li class="footer__link">
-								<a href="#">Shop</a>
-							</li>
-							<li class="footer__link">
-								<a href="#">About as</a>
-							</li>
-							<li class="footer__link">
-								<a href="#">Journal</a>
-							</li>
-							<li class="footer__link">
-								<a href="#">Contact</a>
-							</li>
-						</ul>
+			<div class="footer__bottom">
+				<div class="footer__icons">
+					<div class="footer__icon">
+						© Pulstar powered by
 					</div>
+					<div class="footer__orangetext">Webflow</div>
 				</div>
-
-				<div class="footer__item-column3">
-					<div class="footer__item-subtitle">Template</div>
-					<div class="footer__item-descr">
-						<ul class="footer__list">
-							<li class="footer__link">
-								<a href="#">Style Guide</a>
-							</li>
-							<li class="footer__link">
-								<a href="#">Instructions</a>
-							</li>
-							<li class="footer__link">
-								<a href="#">Licensing</a>
-							</li>
-							<li class="footer__link">
-								<a href="#">Changelog</a>
-							</li>
-							<li class="footer__link">
-								<a href="#">More Templates</a>
-							</li>
-						</ul>
-					</div>
-				</div>
+				<button class="footer__btn">Buy Template</button>
 			</div>
+
 		</div>
 
-		<div class="brown">
-			<hr>
-		</div>
-
-		<div class="footer__bottom">
-			<div class="footer__icons">
-				<div class="footer__icon">
-					© Pulstar powered by
-				</div>
-				<div class="footer__orangetext">Webflow</div>
-			</div>
-			<button class="footer__btn">Buy Template</button>
-		</div>
 
 	</footer>
 
 
-
-	<script src="js/script.js"></script>
+	<script src="//code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script type="text/javascript" src="/dist/js/slick.min.js"></script>
+	<script src="/dist/js/script.js"></script>
 </body>
 
 </html>
